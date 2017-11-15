@@ -109,7 +109,8 @@ a.anchor {
 
 .social-link {
     font-size: 100px;
-    margin-left: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .bio {
@@ -310,6 +311,14 @@ a.anchor {
     .section-letter {
         font-size: 50px;
         letter-spacing: -10px;
+    }
+
+    /* .links {
+        margin-right: 30px;
+    }
+ */
+    .social-link {
+        font-size: 50px;
     }
 }
 
