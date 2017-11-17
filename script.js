@@ -45,8 +45,6 @@ function setup () {
   noStroke()
 }
 
-let idx = 0
-
 function randomNumber (size) {
   return Math.floor(Math.random() * size)
 }
@@ -59,15 +57,15 @@ function randomChoice  (choices) {
 function mouseClicked () {
   let sideLength = randomNumber(maxSize)
   fill(randomChoice(colors))
-  if (idx % numShapes == 0) {
+  let shapeType = randomNumber(numShapes)
+  if (shapeType % numShapes == 0) {
     ellipse(mouseX, mouseY, sideLength, sideLength)
-  } else if (idx % numShapes == 1) {
+  } else if (shapeType % numShapes == 1) {
     rect(mouseX, mouseY, sideLength, sideLength)
   } else {
     triangle(mouseX, mouseY, mouseX + sideLength, mouseY, 
       mouseX + (.5 * sideLength), mouseY - sideLength)
   }
-  idx = randomNumber(numShapes)
 }
 
 window.onresize = () => {
