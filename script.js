@@ -27,9 +27,11 @@ Array.from(document.getElementsByClassName("letter")).forEach(letter => {
 })
 
 // Random shapes!
+const numShapes = 3
+const maxSize = 200
 
 let colors = []
-function setup() {
+function setup () {
   colors = [
     color(255, 143, 0, 80),
     color(255, 128, 171, 80),
@@ -45,22 +47,27 @@ function setup() {
 
 let idx = 0
 
-function randomChoice(choices) {
-  var index = Math.floor(Math.random() * choices.length)
+function randomNumber (size) {
+  return Math.floor(Math.random() * size)
+}
+
+function randomChoice  (choices) {
+  let index = randomNumber(choices.length)
   return choices[index]
 }
 
-function mouseClicked() {
-  let sideLength = Math.floor((Math.random() * 200) + 1)
+function mouseClicked () {
+  let sideLength = randomNumber(maxSize)
   fill(randomChoice(colors))
-  if (idx % 3 == 0) {
+  if (idx % numShapes == 0) {
     ellipse(mouseX, mouseY, sideLength, sideLength)
-  } else if (idx % 3 == 1) {
+  } else if (idx % numShapes == 1) {
     rect(mouseX, mouseY, sideLength, sideLength)
   } else {
-    triangle(mouseX, mouseY, mouseX + sideLength, mouseY, mouseX + (.5 * sideLength), mouseY - sideLength)
+    triangle(mouseX, mouseY, mouseX + sideLength, mouseY, 
+      mouseX + (.5 * sideLength), mouseY - sideLength)
   }
-  idx = Math.floor((Math.random() * 3))
+  idx = randomNumber(numShapes)
 }
 
 window.onresize = () => {
