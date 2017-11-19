@@ -54,6 +54,8 @@ a.anchor {
 .content {
     margin-left: 100px;
     margin-right: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -83,7 +85,7 @@ a.anchor {
 }
 
 .name-about {
-    height: 90vh;
+    margin-bottom: 150px;
 }
 
 .card {
@@ -316,10 +318,6 @@ a.anchor {
 }
 
 @media (max-width: 600px) {
-    .name-about {
-        height: 75vh;
-    }
-
     .name-letter {
         font-size: 100px;
     }
@@ -361,11 +359,7 @@ a.anchor {
 @media (max-width: 350px) {
     .name-letter {
         font-size: 80px;
-    }
-    
-    .name-about {
-        height: 90vh;
-    }
+    }    
 }
 
 /* Colors */
