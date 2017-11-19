@@ -353,15 +353,20 @@ a.anchor {
         letter-spacing: -10px;
     }
 
-    /* .links {
-        margin-right: 30px;
-    }
-    */
     .social-link {
         font-size: 50px;
     }
 }
 
+@media (max-width: 350px) {
+    .name-letter {
+        font-size: 80px;
+    }
+    
+    .name-about {
+        height: 90vh;
+    }
+}
 
 /* Colors */
 
