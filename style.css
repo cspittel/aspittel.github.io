@@ -95,8 +95,16 @@ a.anchor {
     border-radius: 2px;
     color: #fff;
     text-align: center;
+    font-size: 1.3em;
     font-family: 'Lato', sans-serif;
     max-width: 27%;
+}
+
+.card:hover {
+    position: relative;
+    top: -5px;
+    left: -5px;
+    box-shadow: 5px 5px 5px #969696;
 }
 
 .project-link {
