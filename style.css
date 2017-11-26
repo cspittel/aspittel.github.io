@@ -151,16 +151,13 @@ a.anchor {
 
 .circular {
     -ms-flex-item-align: center;
-        align-self: center;
+    align-self: center;
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
     margin-right: 40px;
     width: 300px;
     height: 300px;
-    background-image: url("./assets/pic.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
     border-radius: 50%;
     float: left;
     margin-bottom: 20px;
@@ -182,11 +179,11 @@ a.anchor {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 100px;
@@ -239,8 +236,8 @@ a.anchor {
     -o-transition: top ease 0.1s;
     transition: top ease 0.1s;
     -webkit-transition-delay: 2s;
-         -o-transition-delay: 2s;
-            transition-delay: 2s;
+    -o-transition-delay: 2s;
+    transition-delay: 2s;
     opacity: 0.9;
 }
 
@@ -282,7 +279,7 @@ a.anchor {
 
 .hovered {
     -webkit-animation: hoveranimation 3s;
-            animation: hoveranimation 3s;
+    animation: hoveranimation 3s;
 }
 
 .social-link:hover {
