@@ -9,6 +9,8 @@ Array.from(document.getElementsByClassName('letter')).forEach(letter => {
 })
 
 // Random shapes!
+
+// color, createCanvas, noStroke, fill, ellipse, mouseX, mouseY, resizeCanvas are all from P5.js
 const numShapes = 3
 const maxSize = 200
 
