@@ -115,6 +115,10 @@ a.anchor {
     color: #f8bbd0;
 }
 
+.deploy-link-blue {
+    color: #3949ab;
+}
+
 .icons {
     margin-top: -30px;
     margin-bottom: -10px;
@@ -348,7 +352,7 @@ a.anchor {
     .social-link {
         font-size: 50px;
     }
-    
+
     .cards {
         grid-template-columns: repeat(1, 1fr);
     }
