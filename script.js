@@ -58,7 +58,8 @@ window.onresize = () => {
 window.onscroll = (e) => {
   let scrollPosition = window.scrollY
   let headerName = document.getElementById('header-name')
-  let header = document.getElementById('header')
+  let header = document.querySelector('header')
+
   if (scrollPosition > 179) {
     headerName.classList.remove('hidden')
     header.classList.add('white')
