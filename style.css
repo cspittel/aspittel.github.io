@@ -166,6 +166,15 @@ a.anchor {
     transition-duration: 3s;
 }
 
+.dev-to {
+    margin-top: 5px;
+}
+
+.dev-to-img {
+    height: 85px;
+    width: 85px;
+}
+
 .links {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -311,7 +320,7 @@ a.anchor {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     .name-letter {
         font-size: 100px;
     }
@@ -348,6 +357,11 @@ a.anchor {
     .social-link {
         font-size: 50px;
     }
+
+    .dev-to-img {
+        height: 45px;
+        width: 45px;
+    }    
 
     .cards {
         grid-template-columns: repeat(1, 1fr);
