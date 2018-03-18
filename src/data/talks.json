@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Learning CSS Through Creating Art",
+    "description": "An introduction to CSS through creating art! Goes through color, positioning, shapes, and selectors. Given at IndyCodes(), as a dev.to talk, and at Pivotal lunch and Learn.",
+    "presentation_link": "https://www.alispit.tel/css-art-presentation/#/intro",
+    "tools": ["CSS"],
+    "icons":["devicon-css3-plain"]
+  },
+  {
+    "name": "Programming 001",
+    "description": "A talk I gave at ByteBack DC on what programming is and what code looks like compared to its output.",
+    "presentation_link": "https://github.com/aspittel/programming001",
+    "tools": ["Intro"],
+    "icons":["fa fa-code"]
+  },
+  {
+    "name": "What are Web Frameworks?",
+    "description": "A talk I gave at CodeHer Conference on what programmers mean when they talk about frameworks. It also goes into why different ones are used for different projects!",
+    "presentation_link": "https://github.com/aspittel/intro-to-frameworks",
+    "tools": ["Intro"],
+    "icons":["fa fa-code"]
+  },
+  {
+    "name": "Creating Web-Ready Data Visualizations in Python using Bokeh",
+    "description": "Guest lecture given to each of General Assembly's Data Science Immersive cohorts on Bokeh, a Python library for writing web-ready data visualizations.",
+    "presentation_link": "https://github.com/aspittel/ga-bokeh-lecture",
+    "tools": ["Python"],
+    "icons":["devicon-python-plain"]
+  },
+  {
+    "name": "Intro to React: State + Props, Event Handlers, and Conditionals",
+    "description": "Introduction to React tutorial given at General Assembly's DC campus.",
+    "presentation_link": "https://github.com/aspittel/ga-react-tutorial",
+    "tools": ["React"],
+    "icons":["devicon-react-plain"]
+  },
+  {
+    "name": "Intro to Git Using the CLI",
+    "description": "Introduction to Git and GitHub from the command line given at the Women Who Code DC Meetup.",
+    "presentation_link": "https://www.meetup.com/Women-Who-Code-DC/events/243781293/",
+    "tools": ["Git", "GitHub"],
+    "icons":["devicon-git-plain", "devicon-github-plain"]
+  },
+  {
+    "name": "Intro to Web Development for Data Scientists",
+    "description": "Guest lecture for General Assembly's data science program. Discusses how web development can be used to improve data science work, and attendees build a Flask app.",
+    "presentation_link": "https://github.com/aspittel/web-dev-for-data-scientists",
+    "tools": ["Python", "Flask"],
+    "icons":["devicon-python-plain"]
+  },
+  {
+    "name": "Starting a Blog as a Developer",
+    "description": "An introduction to creating a programming blog.",
+    "presentation_link": "https://github.com/aspittel/blogging-tips",
+    "tools": ["Writing"],
+    "icons":["fa fa-pencil"]
+  },
+  {
+    "name": "Augmented Reality in JavaScript",
+    "description": "Talk about how easy it can be to create augmented reality applications in JavaScript. Features tracking.js and other AR libraries. Coming Spring 2018!",
+    "tools": ["JavaScript"],
+    "icons":["devicon-javascript-plain"]
+  }
+]
