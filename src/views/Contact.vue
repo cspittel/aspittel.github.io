@@ -74,5 +74,44 @@ export default {
   opacity: .5;
 }
 
+.red {
+  color: #ef5350;
+}
+
+.purple {
+  color: #ab47bc;
+}
+
+.bright-blue {
+  color: #651fff;
+}
+
+.dark-blue {
+  color: #3949ab;
+}
+
+.blue {
+  color: #2196f3;
+}
+
+.teal {
+  color: #00bcd4;
+}
+
+.green {
+  color: #4caf50;
+}
+
+.yellow {
+  color: #ffc107;
+}
+
+.pink {
+  color: #ff80ab;
+}
+
+.orange {
+  color: #ff8f00;
+}
 </style>
 
