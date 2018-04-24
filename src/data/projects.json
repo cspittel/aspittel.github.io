@@ -80,15 +80,6 @@
     "icons":["devicon-react-plain", "devicon-css3-plain"]
   },
   {
-    "name": "CSS Flower Art",
-    "description": "Simple Tic Tac Toe game in vanilla JavaScript.",
-    "code_link": "https://github.com/aspittel/css-flower-art/",
-    "article_link":"https://dev.to/aspittel/learning-css-through-creating-art-9i7",
-    "deploy_link": "https://www.alispit.tel/css-flower-art/",
-    "tools": ["JavaScript"],
-    "icons":["devicon-javascript-plain"]
-  },
-  {
     "name": "Elm Trivia",
     "description": "Super simple trivia application built completely in Elm using the Elm architecture!",
     "code_link": "https://github.com/aspittel/elm-trivia-app",
@@ -130,6 +121,14 @@
     "code_link": "https://github.com/aspittel/helpful-coding-resources-api",
     "article_link":"https://dev.to/aspittel/how-i-built-an-api-with-mux-go-postgresql-and-gorm-5ah8",
     "deploy_link": "https://helpful-coding-resources.herokuapp.com/resources",
+    "tools": ["JavaScript"],
+    "icons":["devicon-javascript-plain"]
+  }, {
+    "name": "Hyperapp Quote App",
+    "description": "Random quote display using hyperapp.",
+    "code_link": "https://github.com/aspittel/hyperapp-quote-app/",
+    "article_link":"https://dev.to/aspittel/functional-programming-in-javascript-done-right-with-hyperapp-570f",
+    "deploy_link": "https://www.alispit.tel/hyperapp-quote-app/",
     "tools": ["JavaScript"],
     "icons":["devicon-javascript-plain"]
   }

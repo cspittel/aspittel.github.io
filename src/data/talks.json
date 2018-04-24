@@ -1,22 +1,29 @@
 [
   {
-    "name": "Learning CSS Through Creating Art",
-    "description": "An introduction to CSS through creating art! Goes through color, positioning, shapes, and selectors. Given at IndyCodes(), as a dev.to talk, and at Pivotal lunch and Learn.",
-    "presentation_link": "https://www.alispit.tel/css-art-presentation/#/intro",
-    "tools": ["CSS"],
-    "icons":["devicon-css3-plain"]
+    "name": "Augmented Reality in JavaScript",
+    "description": "Talk about how easy it can be to create augmented reality applications in JavaScript. Features tracking.js and other AR libraries! Has been delivered at Indy.Code() and as a lightning talk for Hack && Tell. Will also be given at NoVa Code Camp, CharmCityJS, and MidAtlantic Developers Conference this summer.",
+    "presentation_link": "https://www.alispit.tel/ar-javascript/",
+    "tools": ["JavaScript"],
+    "icons":["devicon-javascript-plain"]
   },
   {
-    "name": "Programming 001",
-    "description": "A talk I gave at ByteBack DC on what programming is and what code looks like compared to its output.",
-    "presentation_link": "https://github.com/aspittel/programming001",
-    "tools": ["Intro"],
-    "icons":["fa fa-code"]
+    "name": "Learning CSS Through Creating Art",
+    "description": "An introduction to CSS through creating art! Goes through color, positioning, shapes, and selectors. Full day version given at Indy.Code(). Has also been given as a dev.to talk and as a Pivotal Labs lunch and Learn. Will be given at the Art + Collective meetup this summer.",
+    "presentation_link": "https://www.alispit.tel/css-art-presentation",
+    "tools": ["CSS"],
+    "icons":["devicon-css3-plain"]
   },
   {
     "name": "What are Web Frameworks?",
     "description": "A talk I gave at CodeHer Conference on what programmers mean when they talk about frameworks. It also goes into why different ones are used for different projects!",
     "presentation_link": "https://github.com/aspittel/intro-to-frameworks",
+    "tools": ["Intro"],
+    "icons":["fa fa-code"]
+  },
+  {
+    "name": "Programming 001",
+    "description": "A talk I gave at ByteBack DC on what programming is and what code looks like compared to its output.",
+    "presentation_link": "https://github.com/aspittel/programming001",
     "tools": ["Intro"],
     "icons":["fa fa-code"]
   },
@@ -54,11 +61,5 @@
     "presentation_link": "https://github.com/aspittel/blogging-tips",
     "tools": ["Writing"],
     "icons":["fa fa-pencil"]
-  },
-  {
-    "name": "Augmented Reality in JavaScript",
-    "description": "Talk about how easy it can be to create augmented reality applications in JavaScript. Features tracking.js and other AR libraries. Coming Spring 2018!",
-    "tools": ["JavaScript"],
-    "icons":["devicon-javascript-plain"]
   }
 ]
