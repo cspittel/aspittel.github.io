@@ -1,13 +1,12 @@
 {
-  "name": "portfolio",
+  "name": "Ali-Spittel-Portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/aspittel/aspittel.github.io",
+  "assetsPublicPath": "",
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "deploy": "node ./node_modules/vue-gh-pages/index.js"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "p5": "^0.6.0",
