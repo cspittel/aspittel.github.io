@@ -15,6 +15,13 @@
     "icons":["devicon-react-original"]
   },
   {
+    "name": "Weekly Newsletter",
+    "description": "A weekly roundup of my favorite links and my writing from the week.",
+    "deploy_link": "https://tinyletter.com/ali_writes_code",
+    "tools": ["Email", "Writing"],
+    "icons":["fa fa-envelope", "fa fa-pencil"]
+  },
+  {
     "name": "All Blog Posts",
     "description": "I have a variety of blog posts hosted on dev.to, including posts on Go, Angular, Hyperapp, CSS, and blogging.",
     "deploy_link": "https://dev.to/aspittel",
