@@ -5,6 +5,7 @@
 
       <h2 class="intro">I really like writing code.</h2>
       <h2 class="intro">Especially in Python and JavaScript.</h2>
+      <h2 class="intro"><a href="https://zen-of-programming.com/">Check Out My Blog!</a></h2>
       <h2 class="intro"><em>(click anywhere to interact)</em></h2>
     </div>
   </div>
@@ -31,6 +32,12 @@
     @media (max-width: 650px) {
       font-size: 1.5em;
     }
+  }
+
+
+  .intro a {
+    text-decoration: none;
+    color: #2196f3;
   }
 
   .v-center {

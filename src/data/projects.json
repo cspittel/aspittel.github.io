@@ -1,11 +1,43 @@
 [
   {
-    "name": "On Learning New Things",
-    "description": "I really like learning new web development tools, so I decided to challenge myself to learn one new thing a week and write about it! Full intro post.",
+    "name": "Zen of Programming",
+    "description": "I wanted to build a blog that would appeal to me, and especially to pre-software engineer me. I want to show that people like me do exist in this industry and show a snapshot into my life as a developer. It's a combination of the lifestyle blogs I love to follow, technical posts, and the cultural critiques I occasionally like to dish out. I post on average twice a week.",
+    "deploy_link": "https://zen-of-programming.com/",
+    "tools": ["Writing"],
+    "icons":["fa fa-pencil"]
+  },
+  {
+    "name": "zen-of-programming.com",
+    "description": "Progressive Web Application for my blog. Created and customized using Gatsby.js, a static website framework built on top of React. I use GraphQL to query the Markdown posts my posts are written in.",
+    "deploy_link": "https://zen-of-programming.com/",
+    "code_link": "https://github.com/aspittel/zen-of-programming",
+    "tools": ["React", "GraphQL", "Gatsby.js"],
+    "icons":["devicon-react-original"]
+  },
+  {
+    "name": "All Blog Posts",
+    "description": "I have a variety of blog posts hosted on dev.to, including posts on Go, Angular, Hyperapp, CSS, and blogging.",
     "deploy_link": "https://dev.to/aspittel",
     "tools": ["Writing"],
     "icons":["fa fa-pencil"]
   },
+  {
+    "name": "Sudoku Solver",
+    "description": "Python implementation of the backtracking algorithm for solving Sudoku puzzles!",
+    "code_link": "https://github.com/aspittel/sudoku-solver",
+    "article_link":"https://dev.to/aspittel/how-i-finally-wrote-a-sudoku-solver-177g",
+    "tools": ["Python"],
+    "icons":["devicon-python-plain"]
+  }, 
+  {
+    "name": "SnapChat Filters in JavaScript",
+    "description": "Facial detection application that recreates some of SnapChat's filters and applies them to the user's webcam!",
+    "code_link": "https://github.com/aspittel/tracking",
+    "article_link":"https://dev.to/aspittel/facial-recognition-in-javascript-using-trackingjs-3l7",
+    "deploy_link": "https://www.alispit.tel/tracking/",
+    "tools": ["JavaScript"],
+    "icons":["devicon-javascript-plain"]
+  }, 
   {
     "name": "Political Discussion",
     "description": "Django application that retrieved and stored Tweets about the US Senators. It then performs statistical analyses to test whether certain politicians are discussed differently online across party and gender lines. Finally, the data was displayed using dc.js and Google Charts.",
@@ -109,21 +141,13 @@
   {
     "name": "Helpful Coding Resources API",
     "description": "CRUD API that keeps track of awesome articles for developers!",
-    "code_link": "https://github.com/aspittel/helpful-coding-resources-api",
+    "code_link": "https://github.com/aspittel/tracking",
     "article_link":"https://dev.to/aspittel/how-i-built-an-api-with-mux-go-postgresql-and-gorm-5ah8",
     "deploy_link": "https://helpful-coding-resources.herokuapp.com/resources",
     "tools": ["Go"],
     "icons":["devicon-go-plain"]
   },
-  {
-    "name": "Facial Recognition",
-    "description": "Facial recognition application that recreates some of SnapChat's filters and applies them to the user's webcam!",
-    "code_link": "https://github.com/aspittel/helpful-coding-resources-api",
-    "article_link":"https://dev.to/aspittel/how-i-built-an-api-with-mux-go-postgresql-and-gorm-5ah8",
-    "deploy_link": "https://helpful-coding-resources.herokuapp.com/resources",
-    "tools": ["JavaScript"],
-    "icons":["devicon-javascript-plain"]
-  }, {
+ {
     "name": "Hyperapp Quote App",
     "description": "Random quote display using hyperapp.",
     "code_link": "https://github.com/aspittel/hyperapp-quote-app/",
@@ -131,5 +155,52 @@
     "deploy_link": "https://www.alispit.tel/hyperapp-quote-app/",
     "tools": ["JavaScript"],
     "icons":["devicon-javascript-plain"]
+  },
+  {
+    "name": "Electron Markdown Reader",
+    "description": "Desktop app for reading markdown files.",
+    "code_link": "https://github.com/aspittel/markdown-viewer",
+    "article_link":"https://dev.to/aspittel/building-a-markdown-editor-in-electron-3dof",
+    "tools": ["JavaScript"],
+    "icons":["devicon-javascript-plain"]
+  },
+  {
+    "name": "App Ideas",
+    "description": "Node, Objection, Knex, and PostgreSQL CRUD API that uses ES7 features. Displays ideas for applications.",
+    "code_link": "https://github.com/aspittel/app-ideas",
+    "deploy_link":"https://application-ideas.herokuapp.com/ideas",
+    "article_link":"https://dev.to/aspittel/objection--knex--painless-postgresql-in-your-node-app--6n6",
+    "tools": ["JavaScript", "Node", "PostgreSQL"],
+    "icons":["devicon-javascript-plain", "devicon-nodejs-plain", "devicon-postgresql-plain"]
+  },
+  {
+    "name": "Rainbow Word Web Components",
+    "description": "Vanilla JavaScript fancy rainbow letters that I use for personal branding and my slide decks.",
+    "code_link": "https://github.com/aspittel/app-ideas",
+    "deploy_link":"https://application-ideas.herokuapp.com/ideas",
+    "article_link":"https://dev.to/aspittel/objection--knex--painless-postgresql-in-your-node-app--6n6",
+    "tools": ["JavaScript", "Node", "PostgreSQL"],
+    "icons":["devicon-javascript-plain", "devicon-nodejs-plain", "devicon-postgresql-plain"]
+  },
+  {
+    "name": "Art + Code Collective",
+    "description": "Co-founder of the Art + Code Collective, a monthly meetup group for artists and coders in the DC area. Designed the logo and the website.",
+    "deploy_link": "https://www.meetup.com/Art-Code-Collective/",
+    "tools": ["Meetup"],
+    "icons":["fa fa-meetup"]
+  },
+  {
+    "name": "#ArtTechChat",
+    "description": "Co-host of #ArtTechChat, a weekly Twitter chat about technology, design, and art.",
+    "deploy_link": "https://twitter.com/arttechchat",
+    "tools": ["Twitter"],
+    "icons":["fa fa-twitter"]
+  },
+  {
+    "name": "#CodingPuzzles",
+    "description": "I post code challenges daily on Twitter and Instagram -- these are usually intermediate challenges I find online and solve for practice.",
+    "deploy_link": "https://twitter.com/hashtag/codingpuzzle",
+    "tools": ["Twitter"],
+    "icons":["fa fa-twitter"]
   }
 ]

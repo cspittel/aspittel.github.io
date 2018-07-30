@@ -9,7 +9,7 @@
       <a href="https://github.com/aspittel" class="social-link" title="Github"><i class="fa fa-github purple" aria-hidden="true"></i></a>
       <a href="https://www.linkedin.com/in/ali-spittel-768a98119" class="social-link" title="Linkedin"><i class="fa fa-linkedin dark-blue" aria-hidden="true"></i></a>
       <a href="mailto:ali07cat07@gmail.com" class="social-link" title="email me"><i class="fa fa-envelope red" aria-hidden="true"></i></a>
-      <a href="https://medium.com/on-learning-new-things" class="social-link" title="Medium"><i class="fa fa-medium green" aria-hidden="true"></i></a>
+      <a href="https://instagram.com/ali_writes_code" class="social-link" title="Instagram"><i class="fa fa-instagram purple" aria-hidden="true"></i></a>
     </div>
   </div>
 </template>

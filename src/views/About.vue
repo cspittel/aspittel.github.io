@@ -5,7 +5,10 @@
       <img class="circular" src="../assets/pic.jpg" alt="selfie!">
       <div class="bio">
         <p>
-          I have the really cool job of teaching other people how to code at <span class="highlighted-purple">General Assembly DC's</span>          Web Development Immersive program. Before that, I was a software engineer at <span class="highlighted-blue">0ptimus</span>.
+          I have the really cool job of teaching other people how to code at <span class="highlighted-purple">General Assembly DC's</span>Web Development Immersive program. Before that, I was a software engineer at <span class="highlighted-blue">0ptimus</span>.
+        </p>
+        <p>
+          I also <span><a href="https://zen-of-programming.com/">blog</a></span> a lot about code and my life as a developer.
         </p>
         <p>
           My favorite stack right now is <span class="highlighted-green">Vue.js</span> on the frontend and <span class="highlighted-pink">Django</span>          on the backend. I also have worked with React, Ruby on Rails, Java, Meteor, Express, MongoDB, PostgreSQL, CSS,

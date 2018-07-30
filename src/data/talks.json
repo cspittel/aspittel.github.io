@@ -1,14 +1,14 @@
 [
   {
     "name": "Augmented Reality in JavaScript",
-    "description": "Talk about how easy it can be to create augmented reality applications in JavaScript. Features tracking.js and other AR libraries! Has been delivered at Indy.Code() and as a lightning talk for Hack && Tell. Will also be given at NoVa Code Camp, CharmCityJS, and MidAtlantic Developers Conference this summer.",
+    "description": "Talk about how easy it can be to create augmented reality applications in JavaScript. Features tracking.js and other AR libraries! Has been delivered at Indy.Code(), NoVa Code Camp, CharmCityJS, MidAtlantic Developers Conference and as a lightning talk for Hack && Tell.",
     "presentation_link": "https://www.alispit.tel/ar-javascript/",
     "tools": ["JavaScript"],
     "icons":["devicon-javascript-plain"]
   },
   {
     "name": "Learning CSS Through Creating Art",
-    "description": "An introduction to CSS through creating art! Goes through color, positioning, shapes, and selectors. Full day version given at Indy.Code(). Has also been given as a dev.to talk and as a Pivotal Labs lunch and Learn. Will be given at the Art + Collective meetup this summer.",
+    "description": "An introduction to CSS through creating art! Goes through color, positioning, shapes, and selectors. Full day version given at Indy.Code(). Has also been given twice as a dev.to talk, at the Art + Code Collective, and as a Pivotal Labs lunch and Learn.",
     "presentation_link": "https://www.alispit.tel/css-art-presentation",
     "tools": ["CSS"],
     "icons":["devicon-css3-plain"]
@@ -36,7 +36,7 @@
   },
   {
     "name": "Intro to React: State + Props, Event Handlers, and Conditionals",
-    "description": "Introduction to React tutorial given at General Assembly's DC campus.",
+    "description": "Introduction to React tutorial given as a freestanding workshop at General Assembly's DC campus.",
     "presentation_link": "https://github.com/aspittel/ga-react-tutorial",
     "tools": ["React"],
     "icons":["devicon-react-plain"]
@@ -60,6 +60,19 @@
     "description": "An introduction to creating a programming blog.",
     "presentation_link": "https://github.com/aspittel/blogging-tips",
     "tools": ["Writing"],
+    "icons":["fa fa-pencil"]
+  },
+  {
+    "name": "Building a Progressive Web App with Gatsby",
+    "description": "An introduction to creating a blog with Gatsby.js, a React framework. Given at NoVa React and DC Hack && Tell.",
+    "presentation_link": "https://www.alispit.tel/gatsby-blog/#/intro",
+    "tools": ["Writing"],
+    "icons":["fa fa-pencil"]
+  },
+  {
+    "name": "Teaching Code",
+    "description": "An introduction to teaching people how to code. Given at the Moms can Code Virtual Summit.",
+    "tools": ["Teaching"],
     "icons":["fa fa-pencil"]
   }
 ]
