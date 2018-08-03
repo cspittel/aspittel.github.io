@@ -26,7 +26,7 @@
     font-weight: 800;
     letter-spacing: -20px;
     mix-blend-mode: darken;
-    position: relative;
+    display: inline-block;
     opacity: 0.8;
     font-size: 20px;
     text-transform: uppercase;
@@ -42,26 +42,14 @@
   }
 
   @keyframes hoveranimation {
-    0% {
-      top: 0px;
-    }
     50% {
-      top: 50px;
-    }
-    100% {
-      top: 0px;
+      transform: translateY(50px);
     }
   }
 
   @-webkit-keyframes hoveranimation {
-    0% {
-      top: 0px;
-    }
     50% {
-      top: 50px;
-    }
-    100% {
-      top: 0px;
+      transform: translateY(50px);
     }
   }
 </style>
