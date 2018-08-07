@@ -103,7 +103,7 @@
   },
   {
     "name": "CSS Flower Art",
-    "description": "Simple Tic Tac Toe game in vanilla JavaScript.",
+    "description": "A bold flower art piece built with React and CSS.",
     "code_link": "https://github.com/aspittel/css-flower-art/",
     "article_link":"https://dev.to/aspittel/learning-css-through-creating-art-9i7",
     "deploy_link": "https://www.alispit.tel/css-flower-art/",

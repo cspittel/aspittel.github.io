@@ -19,7 +19,7 @@
           Capitol Hill, rock climbing, or participating in DC coding community events.
         </p>
         <p>
-          I graduated from Hamilton College with a BA in government in 2016 after completing research in how to effectively teach computer
+          I graduated from Hamilton College with a BA in government after completing research in how to effectively teach computer
           science to 7-12th graders and on the differences in representation in Congress across party and gender lines.
         </p>
       </div>
