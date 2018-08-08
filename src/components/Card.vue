@@ -21,7 +21,7 @@
         <a :href="project.presentation_link">View Presentation</a>
       </li>
     </ul>
-    <p>
+    <p class="description">
       {{ project.description }}
     </p>
   </div>
@@ -61,6 +61,11 @@ export default {
 
   li {
     line-height: 150%;
+  }
+
+  .description {
+    line-height: 25px;
+    font-size: 18px;
   }
 
   .card {
