@@ -23,7 +23,7 @@
   },
   {
     "name": "All Blog Posts",
-    "description": "I have a variety of blog posts hosted on dev.to, including posts on Go, Angular, Hyperapp, CSS, and blogging.",
+    "description": "I have a variety of blog posts hosted on dev.to, including posts on Go, Angular, Hyperapp, CSS, and blogging. My posts have been featured on the top of Hacker News, in the FreeCodeCamp and Hacker Noon Medium Publications, and as a dev.to top 7 post of the week multiple times.",
     "deploy_link": "https://dev.to/aspittel",
     "tools": ["Writing"],
     "icons":["fa fa-pencil"]
@@ -73,7 +73,6 @@
     "name": "Coding Cheat Sheets",
     "description": "Simple JavaScript application that allows a user to play the game Simon. Implemented using a queue data structure.",
     "code_link": "https://github.com/aspittel/coding-cheat-sheets",
-    "deploy_link": "https://github.com/aspittel/coding-cheat-sheets",
     "tools": ["Writing"],
     "icons":["fa fa-pencil"]
   },
@@ -81,7 +80,6 @@
     "name": "Coding Problems",
     "description": "This is my default repository for small projects! A lot of these are from classes I've taken or from competitions I've participated in. Some highlights include the Huffman Encoding algorithm, a random writer, and Google Code Jam solutions.",
     "code_link": "https://github.com/aspittel/coding-problems",
-    "deploy_link": "https://github.com/aspittel/coding-problems",
     "tools": ["Python", "C++"],
     "icons":["devicon-python-plain", "devicon-cplusplus-plain"]
   },
@@ -148,7 +146,7 @@
   {
     "name": "Helpful Coding Resources API",
     "description": "CRUD API that keeps track of awesome articles for developers!",
-    "code_link": "https://github.com/aspittel/tracking",
+    "code_link": "https://github.com/aspittel/helpful-coding-resources-api",
     "article_link":"https://dev.to/aspittel/how-i-built-an-api-with-mux-go-postgresql-and-gorm-5ah8",
     "deploy_link": "https://helpful-coding-resources.herokuapp.com/resources",
     "tools": ["Go"],
@@ -183,11 +181,11 @@
   {
     "name": "Rainbow Word Web Components",
     "description": "Vanilla JavaScript fancy rainbow letters that I use for personal branding and my slide decks.",
-    "code_link": "https://github.com/aspittel/app-ideas",
-    "deploy_link":"https://application-ideas.herokuapp.com/ideas",
-    "article_link":"https://dev.to/aspittel/objection--knex--painless-postgresql-in-your-node-app--6n6",
-    "tools": ["JavaScript", "Node", "PostgreSQL"],
-    "icons":["devicon-javascript-plain", "devicon-nodejs-plain", "devicon-postgresql-plain"]
+    "code_link": "https://github.com/aspittel/rainbow-word-webcomponent",
+    "deploy_link":"https://www.alispit.tel/css-art-presentation/#/intro",
+    "article_link":"https://dev.to/aspittel/building-web-components-with-vanilla-javascript--jho",
+    "tools": ["JavaScript"],
+    "icons":["devicon-javascript-plain"]
   },
   {
     "name": "Art + Code Collective",
