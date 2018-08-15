@@ -8,15 +8,18 @@
       <h2 class="intro"><a href="https://zen-of-programming.com/">Check Out My Blog!</a></h2>
       <h2 class="intro"><em>(click anywhere to interact)</em></h2>
     </div>
+    <social-links/>
   </div>
 </template>
 
 <script>
   import RainbowText from "../components/RainbowText"
+  import SocialLinks from '@/components/SocialLinks.vue'
 
   export default {
     components: {
       'rainbow-text': RainbowText,
+      'social-links': SocialLinks
     }
   }
 </script>

@@ -68,6 +68,9 @@
     @media (max-width: 500px) {
       font-size: 80px;
     }
+   @media (max-width: 400px) {
+      font-size: 60px;
+    }
   }
 
   .large > span > span {
@@ -85,10 +88,9 @@
     @media (max-width: 650px) {
       font-size: 100px;
     }
-    @media (max-width: 350px) {
+    @media (max-width: 370px) {
       font-size: 80px;
     }
   }
-
 </style>
 

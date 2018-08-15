@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="page">
     <header-component />
     <div class="content">
       <transition name="fade" mode="out-in">
@@ -14,18 +14,21 @@
 import RandomShapes from '@/components/RandomShapes.vue'
 import HeaderComponent from '@/components/HeaderComponent.vue'
 
-
 export default {
   name: 'app',
   components: { 
     'random-shapes': RandomShapes,
-    'header-component': HeaderComponent
+    'header-component': HeaderComponent,
   }
 }
 </script>
 
 <style lang="scss">
   @import url('https://fonts.googleapis.com/css?family=Lato:400,800');
+
+  .page {
+    height: 100%;
+  }
 
   ::-moz-selection {
     background: #b39ddb;
@@ -37,6 +40,7 @@ export default {
   
   html, body, #app {
     height: 98%;
+    // overflow-y: hidden;
     font-family: 'Lato', sans-serif;
   }
 

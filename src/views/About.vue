@@ -24,15 +24,18 @@
         </p>
       </div>
     </div>
+    <social-links />
   </div>
 </template>
 
 <script>
 import RainbowText from "@/components/RainbowText"
+import SocialLinks from '@/components/SocialLinks.vue'
 
 export default {
   components: {
     'rainbow-text': RainbowText,
+    'social-links': SocialLinks
   } 
 }
 </script>
