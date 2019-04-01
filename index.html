@@ -1,17 +1,240 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" href=/favicon.ico><link href=https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css rel=stylesheet><title>Ali Spittel</title><link rel=preload as=script href=/js/vendor.22e7e022.js><link rel=preload as=script href=/js/app.c9692ad0.js><link rel=preload as=style href=/css/app.53c607ba.css><link href=/css/app.53c607ba.css rel=stylesheet></head><body><noscript><strong>We're sorry but portfolio doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script>(function (i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r
-      i[r] = i[r] || function () {
-        (i[r].q = i[r].q || []).push(arguments)
-      },
-      i[r].l = 1 * new Date()
-      a = s.createElement(o),
-      m = s.getElementsByTagName(o)[0]
-      a.async = 1
-      a.src = g
-      m
-        .parentNode
-        .insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga')
-    ga('create', 'UA-84733823-1', 'auto')
-    ga('send', 'pageview')</script><script type=text/javascript>(function(r){var n=window["webpackJsonp"];window["webpackJsonp"]=function(e,u,c){for(var i,f,p,l=0,a=[];l<e.length;l++)f=e[l],t[f]&&a.push(t[f][0]),t[f]=0;for(i in u)Object.prototype.hasOwnProperty.call(u,i)&&(r[i]=u[i]);n&&n(e,u,c);while(a.length)a.shift()();if(c)for(l=0;l<c.length;l++)p=o(o.s=c[l]);return p};var e={},t={2:0};function o(n){if(e[n])return e[n].exports;var t=e[n]={i:n,l:!1,exports:{}};return r[n].call(t.exports,t,t.exports,o),t.l=!0,t.exports}o.m=r,o.c=e,o.d=function(r,n,e){o.o(r,n)||Object.defineProperty(r,n,{configurable:!1,enumerable:!0,get:e})},o.n=function(r){var n=r&&r.__esModule?function(){return r["default"]}:function(){return r};return o.d(n,"a",n),n},o.o=function(r,n){return Object.prototype.hasOwnProperty.call(r,n)},o.p="/",o.oe=function(r){throw console.error(r),r}})([]);
-//# sourceMappingURL=/js/manifest.ce28c628.js.map</script><script type=text/javascript src=/js/vendor.22e7e022.js></script><script type=text/javascript src=/js/app.c9692ad0.js></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ali Spittel</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.8.1/js/brands.js"
+      integrity="sha384-rUOIFHM3HXni/WG5pzDhA1e2Js5nn4bWudTYujHbbI9ztBIxK54CL4ZNZWwcBQeD"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.8.1/js/fontawesome.js"
+      integrity="sha384-EMmnH+Njn8umuoSMZ3Ae3bC9hDknHKOWL2e9WJD/cN6XLeAN7tr5ZQ0Hx5HDHtkS"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.8.1/js/regular.js"
+      integrity="sha384-Uc9toywOA44owltk1MWl0lQZ+L0mBzJkLQcdif6+JtG9izvok9DLJtCZX57Uq3k2"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js"
+      defer
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="rainbow-letters">
+          <span>A</span>
+          <span>L</span>
+          <span>I</span>
+          <span class="big-space">&nbsp;</span>
+          <span>S</span>
+          <span>P</span>
+          <span>I</span>
+          <span>T</span>
+          <span>T</span>
+          <span>E</span>
+          <span>L</span>
+        </h1>
+        <h2>
+          I really like writing code.
+        </h2>
+        <h2>
+          Especially in Python and JavaScript.
+        </h2>
+        <div class="social-links">
+          <a href="https://twitter.com/aspittel">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://instagram.com/ali_writes_code">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://dev.to/aspittel">
+            <i class="fab fa-dev"></i>
+          </a>
+          <a href="https://github.com/aspittel">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:ali07cat07@gmail.com">
+            <i class="far fa-envelope"></i>
+          </a>
+        </div>
+        <hr />
+      </header>
+      <section class="about">
+        <h2>About</h2>
+        <p>
+          I'm a software engineer and developer advocate at
+          <a href="https://dev.to" class="dark-purple">DEV</a>. Before that, I
+          was a lead instructor at
+          <a href="https://generalsassemb.ly" class="red">General Assembly</a>
+          teaching their Web Development Immersive for both campus and
+          enterprise programs. I currently teach their Python part time class.
+          Before teaching, I was a software engineer at a startup.
+        </p>
+        <p>
+          I <a href="https://dev.to/aspittel" class="light-purple">blog</a> a
+          lot about code and my life as a developer.
+        </p>
+        <p>
+          I'm also a director for
+          <a href="https://www.meetup.com/Women-Who-Code-DC/" class="blue"
+            >Women Who Code DC</a
+          >, a co-founder of the
+          <a href="https://www.meetup.com/Art-Code-Collective/" class="orange"
+            >Art Code Collective</a
+          >, and the DC Chapter Lead for
+          <a href="https://www.meetup.com/VueVixens-DC/" class="green"
+            >Vue Vixens</a
+          >.
+        </p>
+        <p>
+          When I'm not coding you can find me watching my favorite New England
+          sports teams, taking runs around Capitol Hill with my dog
+          <a href="https://www.instagram.com/blairnugget/" class="pink">Blair</a
+          >, or rock climbing.
+        </p>
+      </section>
+      <section class="speaking">
+        <h2>Speaking</h2>
+        <div class="speaking-columns">
+          <div class="column">
+            <h3>Upcoming</h3>
+            <div>
+              <a href="https://revolutionconf.com/">Revolution Conference</a>
+              <p>Yes, You Should Write that Blog Post!</p>
+            </div>
+            <div>
+              <a href="https://conferences.oreilly.com/oscon/oscon-or">OSCON</a>
+              <p>
+                Writing to grow your open source project
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <h3>Selected Previous Talks</h3>
+            <div>
+              <a href="https://indycode.amegala.com/">IndyCode()</a>
+              <p>Learning CSS Through Creating Art</p>
+            </div>
+            <div>
+              <a href="https://indycode.amegala.com/">IndyCode()</a>
+              <p>Augmented Reality in JavaScript</p>
+            </div>
+            <div>
+              <a href="https://www.middevcon.com/"
+                >Mid-Atlantic Developer Conference</a
+              >
+              <p>Augmented Reality in JavaScript</p>
+            </div>
+            <div>
+              <a
+                href="https://dev.to/aspittel/learning-css-through-creating-art-54c0"
+                >DEV Workshop</a
+              >
+              <p>Learning CSS Through Creating Art</p>
+            </div>
+            <div>
+              <a href="http://novacodecamp.org/">NOVA Code Camp</a>
+              <p>Augmented Reality in JavaScript</p>
+            </div>
+            <div>
+              <a href="http://novacodecamp.org/">Code(Her)</a>
+              <p>What are Web Frameworks?</p>
+            </div>
+          </div>
+          <div class="column">
+            <h3>Interviews</h3>
+            <a href="https://spec.fm/podcasts/developer-tea/285498s"
+              >Developer Tea</a
+            >
+            <a
+              href="http://podcast.freecodecamp.org/ep-48-ali-spittel-creator-of-zen-of-programming"
+              >Free Code Camp Podcast</a
+            >
+            <a
+              href="https://www.devpath.fm/episodes/teacher-and-developer-advocate-ali-spittel"
+              >Devpath.fm</a
+            >
+            <a
+              href="https://egghead.io/podcasts/developing-yourself-while-teaching-others-with-ali-spittel"
+              >Egghead Podcast</a
+            >
+            <a href="https://itcareerenergizer.com/e134/"
+              >I.T. Career Energizer</a
+            >
+            <a
+              href="https://cosmicjs.com/blog/developer-spotlight-ali-spittel-of-dev-community"
+              >Cosmic JS Developer Spotlight</a
+            >
+            <a href="https://realpython.com/interview-ali-spittel/"
+              >Real Python</a
+            >
+            <a
+              href="http://www.blog.pythonlibrary.org/2019/02/04/pydev-of-the-week-ali-spittel/"
+              >PyDev of the Week</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="writing">
+        <h2>Writing</h2>
+        <h3>A few recent posts...</h3>
+      </section>
+      <section class="projects">
+        <h2>Selected Personal Projects</h2>
+        <div>
+          <h3><a href="https://learncodefrom.us/">Learn Code from Us</a></h3>
+          <p>
+            A site that features people from underrepresented groups in tech who
+            create awesome programming resources
+          </p>
+        </div>
+        <div>
+          <h3>
+            <a href="http://politicaldiscussion.herokuapp.com/"
+              >Political Discussion</a
+            >
+          </h3>
+          <p>
+            Part of my senior thesis in college: visualizes how people are
+            discussing Senators on Twitter.
+          </p>
+        </div>
+        <a href="https://github.com/aspittel" style="color:#ab47bc;"
+          >More on GitHub</a
+        >
+      </section>
+      <section class="social-footer">
+        <div class="social-links">
+          <a href="https://twitter.com/aspittel">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://instagram.com/ali_writes_code">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://dev.to/aspittel">
+            <i class="fab fa-dev"></i>
+          </a>
+          <a href="https://github.com/aspittel">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:ali07cat07@gmail.com">
+            <i class="far fa-envelope"></i>
+          </a>
+        </div>
+      </section>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
