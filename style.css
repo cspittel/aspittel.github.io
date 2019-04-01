@@ -85,7 +85,7 @@ canvas {
 
 .rainbow-letters span {
   font-size: 70px;
-  font-weight: bolder;
+  font-weight: 800;
   mix-blend-mode: darken;
   opacity: 0.8;
   text-transform: uppercase;
